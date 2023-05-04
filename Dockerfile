@@ -1,5 +1,4 @@
 # syntax = docker/dockerfile:latest
-
 # Install dependencies only when needed
 FROM docker.io/node:18-alpine AS deps
 
@@ -11,6 +10,8 @@ SHELL ["/bin/ash", "-xeo", "pipefail", "-c"]
 RUN apk add --no-cache libc6-compat \
  && apk add --no-cache --virtual .gyp python3 make g++ \
  && npm install -g pnpm
+
+ENV DOCKER_BUILDKIT=1
 
 RUN --mount=type=cache,id=pnpm-store,target=/root/.local/share/pnpm/store pnpm fetch | grep -v "cross-device link not permitted\|Falling back to copying packages from store"
 
