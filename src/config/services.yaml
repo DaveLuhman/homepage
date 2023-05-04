@@ -1,37 +1,40 @@
----
-# For configuration options and examples, please see:
-# https://gethomepage.dev/en/configs/services
-
 - Published:
     - Public Website:
         href: http://ado.software/
-        description: My Firms Website
-    - Timekeeper:
-        href: http://tk-api.prod.ado.software/
-        description: Timekeeper API (redirects to front-end)
-    - Homepage:
-        href: http://home.ado.software/
-        description: This site, disconnected from git
+        description: Pubilc Facing Website
+    - Blog:
+        href: http://blog.ado.software/
+        description: My blog
+    - TimeKeeper Front-End:
+        href: https://time.forwardelectric.com/
+        description: TimeKeeper Published Front-End
+
 
 - Production:
-    - Caprover:
-        href: http://captain.prod.ado.software/
-        description: The orchestration platform for production services
-    - MongoDB Browser:
+    - Captain:
+        description: Prod instance of Caprover
+        href: http://captain.prod.ado.software
+        ping: http://captain.prod.ado.software
+    - MongoDB:
+        description: Admin Backdoor to MongoDB Prod Instance
         href: http://mongo.prod.ado.software/
-        description: Direct connect to MongoDB Prod instance
-    - Homepage:
-        href: http://home.prod.ado.software/
-        description: This site attached to git production branch
+        ping: http://mongo.prod.ado.software/
+    - TimeKeeper API:
+        href: https://time.forwardelectric.com/
+        description: TimeKeeper Front-End
+        ping: http://tk-api.prod.ado.software/
 
 - Development:
-    - Caprover:
+    - Captain:
         href: http://captain.dev.ado.software/
-        description: The orchestration platform for development services
-    - MongoDB Browser:
-        href: http://mongo.dev.ado.software/
-        description: Direct connect to MongoDB dev instance
-    - Homepage:
-        href: http://home.dev.ado.software/
-        description: This site attached to the git development branch
+        description: Dev Instance of Caprover
+        ping: http://captain.dev.ado.software/
+    - MongoDB:
+        description: Admin Backdoor to MongoDB Dev Instance
+        href: http://mongo.prod.ado.software/
+        ping: http://mongo.prod.ado.software/
+    - ToolKeeper:
+        href: http://toolkeeper.dev.ado.software/
+        description: Current Master Release Build of ToolKeeper
+        ping: http://toolkeeper.dev.ado.software/api/ping
 
