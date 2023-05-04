@@ -2,17 +2,36 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/en/configs/services
 
-- My First Group:
-    - My First Service:
-        href: http://localhost/
-        description: Homepage is awesome
+- Published:
+    - Public Website:
+        href: http://ado.software/
+        description: My Firms Website
+    - Timekeeper:
+        href: http://tk-api.prod.ado.software/
+        description: Timekeeper API (redirects to front-end)
+    - Homepage:
+        href: http://home.ado.software/
+        description: This site, disconnected from git
 
-- My Second Group:
-    - My Second Service:
-        href: http://localhost/
-        description: Homepage is the best
+- Production:
+    - Caprover:
+        href: http://captain.prod.ado.software/
+        description: The orchestration platform for production services
+    - MongoDB Browser:
+        href: http://mongo.prod.ado.software/
+        description: Direct connect to MongoDB Prod instance
+    - Homepage:
+        href: http://home.prod.ado.software/
+        description: This site attached to git production branch
 
-- My Third Group:
-    - My Third Service:
-        href: http://localhost/
-        description: Homepage is 😎
+- Development:
+    - Caprover:
+        href: http://captain.dev.ado.software/
+        description: The orchestration platform for development services
+    - MongoDB Browser:
+        href: http://mongo.dev.ado.software/
+        description: Direct connect to MongoDB dev instance
+    - Homepage:
+        href: http://home.dev.ado.software/
+        description: This site attached to the git development branch
+

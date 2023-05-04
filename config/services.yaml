@@ -1,0 +1,40 @@
+- Published:
+    - Public Website:
+        href: http://ado.software/
+        description: Pubilc Facing Website
+    - Blog:
+        href: http://blog.ado.software/
+        description: My blog
+    - TimeKeeper Front-End:
+        href: https://time.forwardelectric.com/
+        description: TimeKeeper Published Front-End
+
+
+- Production:
+    - Captain:
+        description: Prod instance of Caprover
+        href: http://captain.prod.ado.software
+        ping: http://captain.prod.ado.software
+    - MongoDB:
+        description: Admin Backdoor to MongoDB Prod Instance
+        href: http://mongo.prod.ado.software/
+        ping: http://mongo.prod.ado.software/
+    - TimeKeeper API:
+        href: https://time.forwardelectric.com/
+        description: TimeKeeper Front-End
+        ping: http://tk-api.prod.ado.software/
+
+- Development:
+    - Captain:
+        href: http://captain.dev.ado.software/
+        description: Dev Instance of Caprover
+        ping: http://captain.dev.ado.software/
+    - MongoDB:
+        description: Admin Backdoor to MongoDB Dev Instance
+        href: http://mongo.prod.ado.software/
+        ping: http://mongo.prod.ado.software/
+    - ToolKeeper:
+        href: http://toolkeeper.dev.ado.software/
+        description: Current Master Release Build of ToolKeeper
+        ping: http://toolkeeper.dev.ado.software/api/ping
+
