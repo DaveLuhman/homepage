@@ -5,6 +5,8 @@
     - Blog:
         href: http://blog.ado.software/
         description: My blog
+        server: my-docker
+        container: srv-captain--blog-wordpress
     - TimeKeeper Front-End:
         href: https://time.forwardelectric.com/
         description: TimeKeeper Published Front-End
