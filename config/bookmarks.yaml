@@ -27,6 +27,12 @@
     - WolfNet:
         - abbr: WN
           href: https://apps7.madisoncollege.edu/employee-landing
+    - HP Warranty Check:
+        - abbr: HP
+          href: https://support.hp.com/us-en/check-warranty
+    - Lenovo Warranty Check:
+        - abbr: LW
+          href: https://pcsupport.lenovo.com/us/en/warranty-lookup
     - Warranty Submit Form:
         - abbr: WS
           href: https://forms.office.com/Pages/ResponsePage.aspx?id=RgHwM8xv6Um1aHiWswadRPsYHl8r-QlApWY_i0iFQ65URTZZSzI0NjdZSEtCTk1LRDlRSTdXMEhUTC4u
