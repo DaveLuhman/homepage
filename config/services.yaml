@@ -1,48 +1,38 @@
 - Published:
-    - Public Website:
-        href: http://ado.software/
-        description: Pubilc Facing Website
-    - Blog:
-        href: http://blog.ado.software/
-        description: My blog
-    - TimeKeeper Front-End:
-        href: https://time.forwardelectric.com/
-        description: TimeKeeper Published Front-End
+      - Public Website:
+            href: http://ado.software/
+            description: Pubilc Facing Website
+      - Blog:
+            href: http://blog.ado.software/
+            description: My blog
+      - TimeKeeper Front-End:
+            href: https://time.forwardelectric.com/
+            description: TimeKeeper Published Front-End
 
-
-- Production:
-    - Captain:
-        description: Hosted Captain Instance
-        href: http://captain.prod.ado.software
-        ping: http://captain.prod.ado.software
-    - TimeKeeper API:
-        href: https://time.forwardelectric.com/
-        description: TimeKeeper Front-End
-        ping: http://time.ado.software
-
-- Development:
-    - EasyPanel:
-        href: http://easypanel.ep.ado.software
-        description: Easypanel Orchestration Environment.
-
-    - MongoDB:
-        description: Admin Backdoor to MongoDB Dev Instance
-        href: http://mongo.prod.ado.software/
-        ping: http://mongo.prod.ado.software/
-    - ToolKeeper:
-        href: http://toolkeeper.ep.ado.software/
-        description: Current Master Release Build of ToolKeeper
-        ping: http://toolkeeper.ep.ado.software/api/ping
+- Hosted Services:
+      - EasyPanel:
+            href: http://easypanel.ep.ado.software
+            description: Easypanel Orchestration Environment.
+      - Wasabi Object Storage:
+            description: Object storage location for database backups
+            href: http://console.wasabisys.com
+      - ToolKeeper:
+            href: http://toolkeeper.ep.ado.software/
+            description: Current Master Release Build of ToolKeeper
+            ping: http://toolkeeper.ep.ado.software/api/ping
 
 - VPN Only Systems:
-    - VMhost:
-        href: https://vmhost.ep.ado.software:8006
-        description: Core Proxmox Node
-    - DC Backup Server:
-        href: https://10.20.30.4:8007
-        description: Backup Server at the DC
-    - Offsite VMHost:
-        href: https://10.11.12.11:8006
-        description: Offsite Virtualization Hosted
-    - Offsite Backups:
-        href: https://10.11.12.12:8007
+      - VMhost:
+            href: https://vmhost.ep.ado.software:8006
+            description: Core Proxmox Host
+      - DC Backup Server:
+            href: https://10.20.30.4:8007
+            description: Backup Server at the DC
+      - Offsite VMHost:
+            href: https://10.11.12.11:8006
+            description: Offsite Proxmox Host
+      - Offsite Backups:
+            href: https://10.11.12.12:8007
+      - Development Proxmox Node:
+            href: https://10.10.10.111:8006
+            description: Proxmox Host at home
