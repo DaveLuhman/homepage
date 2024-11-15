@@ -8,14 +8,14 @@
       - TimeKeeper Front-End:
             href: https://time.forwardelectric.com/
             description: TimeKeeper Published Front-End
+      - Traccar:
+            href: https://gps.luhman.website:8082
+            description: Hosted Fleet Monitoring Service
 
 - Hosted Services:
       - EasyPanel:
             href: http://easypanel.ep.ado.software
             description: Easypanel Orchestration Environment.
-      - Wasabi Object Storage:
-            description: Object storage location for database backups
-            href: http://console.wasabisys.com
       - ToolKeeper:
             href: http://toolkeeper.ep.ado.software/
             description: Current Master Release Build of ToolKeeper
@@ -36,3 +36,20 @@
       - Development Proxmox Node:
             href: https://10.10.10.111:8006
             description: Proxmox Host at home
+
+- Service Providers:
+      - Wasabi Object Storage:
+            description: Object storage location for database backups
+            href: http://console.wasabisys.com
+      - Vultr:
+            description: Cloud Infrastructure Provider
+            href: https://my.vultr.com
+      - Hologram:
+            description: IoT Cellular Service Provider
+            href: https://dashboard.hologram.io
+      - NameCheap:
+            description: Domain Registrar
+            href: https://www.namecheap.com
+      - Cloudflare:
+            description: DNS and CDN Provider
+            href: https://dash.cloudflare.com
