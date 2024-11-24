@@ -19,7 +19,6 @@
       - ToolKeeper:
             href: http://toolkeeper.ep.ado.software/
             description: Current Master Release Build of ToolKeeper
-            ping: http://toolkeeper.ep.ado.software/api/ping
 
 - VPN Only Systems:
       - VMhost:
