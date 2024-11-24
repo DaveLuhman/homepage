@@ -41,9 +41,9 @@
       - Wasabi Object Storage:
             description: Object storage location for database backups
             href: http://console.wasabisys.com
-      - Vultr:
-            description: Cloud Infrastructure Provider
-            href: https://my.vultr.com
+      - LemonSqueezy:
+            description: SaaS Payment Provider
+            href: https://lemonsqueezy.com
       - Hologram:
             description: IoT Cellular Service Provider
             href: https://dashboard.hologram.io
