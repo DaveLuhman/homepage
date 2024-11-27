@@ -19,6 +19,9 @@
       - ToolKeeper:
             href: http://toolkeeper.ep.ado.software/
             description: Current Master Release Build of ToolKeeper
+      - Traccar Fleet Management:
+            href: https://gps.luhman.website:8082
+            description: Traccar Fleet Management Service
 
 - VPN Only Systems:
       - VMhost:
