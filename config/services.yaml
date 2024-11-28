@@ -22,6 +22,9 @@
       - Traccar Fleet Management:
             href: https://gps.luhman.website:8082
             description: Traccar Fleet Management Service
+      - Lobechat:
+            href: https://jippity.luhman.website/
+            description: Lobechat GPT Service
 
 - VPN Only Systems:
       - VMhost:
