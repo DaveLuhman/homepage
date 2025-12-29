@@ -1,0 +1,64 @@
+- Published:
+      - Public Website:
+            href: http://ado.software/
+            description: Pubilc Facing Website
+      - Blog:
+            href: http://blog.ado.software/
+            description: My blog
+      - TimeKeeper Front-End:
+            href: https://time.forwardelectric.com/
+            description: TimeKeeper Published Front-End
+      - Traccar:
+            href: https://gps.luhman.website:8082
+            description: Hosted Fleet Monitoring Service
+
+- Hosted Services:
+      - EasyPanel:
+            href: http://easypanel.ep.ado.software
+            description: Easypanel Orchestration Environment.
+      - ToolKeeper:
+            href: http://toolkeeper.ep.ado.software/
+            description: Current Master Release Build of ToolKeeper
+      - Traccar Fleet Management:
+            href: https://gps.luhman.website:8082
+            description: Traccar Fleet Management Service
+      - Lobechat:
+            href: https://jippity.luhman.website/
+            description: Lobechat GPT Service
+
+- VPN Only Systems:
+      - VMhost:
+            href: https://vmhost.ep.ado.software:8006
+            description: Core Proxmox Host
+      - DC Backup Server:
+            href: https://backup.dc.ado.lan:8007
+            description: Backup Server at the DC
+      - Offsite VMHost:
+            href: https://vmhost.overlay.ado.lan:8006
+            description: Offsite Proxmox Host
+      - Offsite Backups:
+            href: https://bu.overlay.ado.lan:8007
+            description: Offsite Backup Server
+      - Development Proxmox Node:
+            href: https://vmhost.dev.ado.lan:8006
+            description: Proxmox Host at home
+      - Home DNS Server:
+            href: https://ns.dev.ado.lan:5380
+            description: Home DNS Server
+
+- Service Providers:
+      - Wasabi Object Storage:
+            description: Object storage location for database backups
+            href: http://console.wasabisys.com
+      - LemonSqueezy:
+            description: SaaS Payment Provider
+            href: https://lemonsqueezy.com
+      - Hologram:
+            description: IoT Cellular Service Provider
+            href: https://dashboard.hologram.io
+      - NameCheap:
+            description: Domain Registrar
+            href: https://www.namecheap.com
+      - Cloudflare:
+            description: DNS and CDN Provider
+            href: https://dash.cloudflare.com
