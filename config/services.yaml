@@ -8,57 +8,60 @@
       - TimeKeeper Front-End:
             href: https://time.forwardelectric.com/
             description: TimeKeeper Published Front-End
-      - Traccar:
-            href: https://gps.luhman.website:8082
-            description: Hosted Fleet Monitoring Service
-
+      - ToolKeeper:
+            href: http://toolkeeper.site
+            description: Current Master Release Build of ToolKeeper
 - Hosted Services:
       - EasyPanel:
             href: http://easypanel.ep.ado.software
             description: Easypanel Orchestration Environment.
-      - ToolKeeper:
-            href: http://toolkeeper.ep.ado.software/
-            description: Current Master Release Build of ToolKeeper
-      - Traccar Fleet Management:
-            href: https://gps.luhman.website:8082
-            description: Traccar Fleet Management Service
-      - Lobechat:
-            href: https://jippity.luhman.website/
-            description: Lobechat GPT Service
+      - Guestbook:
+            href: https://guestbook.software
+            description: Guestbook Software
+      - Guestbook Staging:
+            href: https://staging.guestbook.software
+            description: Guestbook Software Staging Environment
+      - AutoPear Staging:
+            href: https://autopear.wtf
+            description: AutoPear Staging Environment
 
 - VPN Only Systems:
       - VMhost:
             href: https://vmhost.ep.ado.software:8006
             description: Core Proxmox Host
       - DC Backup Server:
-            href: https://backup.dc.ado.lan:8007
+            href: https://pbs-datacenter.ado.cloud:8007
             description: Backup Server at the DC
       - Offsite VMHost:
-            href: https://vmhost.overlay.ado.lan:8006
+            href: https://pve-backup.ado.cloud:8006
             description: Offsite Proxmox Host
       - Offsite Backups:
-            href: https://bu.overlay.ado.lan:8007
+            href: https://pbs-offsite.ado.cloud:8007
             description: Offsite Backup Server
       - Development Proxmox Node:
-            href: https://vmhost.dev.ado.lan:8006
-            description: Proxmox Host at home
-      - Home DNS Server:
-            href: https://ns.dev.ado.lan:5380
-            description: Home DNS Server
+            href: https://pve-dev.ado.cloud:8006/
+            description: Proxmox Host Development Environment
+
 
 - Service Providers:
+      - NetBird:
+            description: VPN and Networking Provider
+            href: https://app.netbird.io
+      - Stack Auth:
+            description: Authentication Provider
+            href: https://app.stack-auth.com/projects
+      - SMTP2Go:
+            description: SMTP Provider
+            href: https://app.smtp2go.com
+      - Cloudflare:
+            description: DNS and CDN Provider
+            href: https://dash.cloudflare.com
       - Wasabi Object Storage:
             description: Object storage location for database backups
             href: http://console.wasabisys.com
       - LemonSqueezy:
             description: SaaS Payment Provider
             href: https://lemonsqueezy.com
-      - Hologram:
-            description: IoT Cellular Service Provider
-            href: https://dashboard.hologram.io
       - NameCheap:
             description: Domain Registrar
             href: https://www.namecheap.com
-      - Cloudflare:
-            description: DNS and CDN Provider
-            href: https://dash.cloudflare.com
